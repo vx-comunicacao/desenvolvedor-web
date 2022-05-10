@@ -1,0 +1,7 @@
+# ignore node dependency directories
+.idea/
+node_modules/
+
+# ignore log files and databases
+error_log
+*.log
