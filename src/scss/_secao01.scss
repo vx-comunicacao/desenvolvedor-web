@@ -1,0 +1,84 @@
+/* ==== Main ================================ */
+/* ==== Section-01 ================================ */
+
+.secao01 {
+  display: flex;
+  position: relative;
+
+  &__texto {
+    font-weight: 700;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    z-index: 50;
+
+    &__linha1 {
+      color: #CB2283;
+      font-size: 4.5rem;
+      font-weight: 700;
+    }
+
+    &__linha2 {
+      color: #CB2283;
+      font-size: 6.5rem;
+      font-weight: 700;
+    }
+
+    &__linha3 {
+      font-size: 3.6rem;
+      font-weight: 700;
+      max-width: 47rem;
+      margin: 1.7rem 0 1rem;
+    }
+
+    &__linha4 {
+      border-bottom: 1px solid #ffffff33;
+      color: #CB2283;
+      font-size: 2rem;
+      font-weight: 700;
+      max-width: 42.7rem;
+      padding: 0 0 1.5rem;
+      margin-bottom: 2.4rem;
+    }
+
+    &__botao {
+      background: linear-gradient(90deg, #FC1787 30%, #7C2CFF 70%);
+      background-size: 400vw;
+      background-position:-300vw;
+      background-repeat: no-repeat;
+      border-radius: 50vh;
+      font-size: 2rem;
+      font-weight: 400;
+      padding: 1rem 2rem;
+      width: max-content;
+      transition: all 1s;
+    }
+
+    &__botao:hover {
+      background-position: 0vw;
+      transition: all 1s;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    top: 0;
+    right: -5rem;
+    height: 50vw;
+    max-height: 125%;
+  }
+
+  &::before {
+    background-color: #CB2283;
+    border-radius: 50%;
+    content: "";
+    height: 84rem;
+    left: -50rem;
+    position: absolute;
+    top: 28rem;
+    width: 84rem;
+    z-index: 1;
+
+    opacity: 0.3;
+    filter: blur(100px);
+  }
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    
+</head>
+<body>
+  <div class="background">
+    <header class="header" id="header">
+      <div class="header__logo">
+        <figure>
+          <img src="./src/imgs/header-logo.png" alt="Globo">
+        </figure>
+      </div>
+      <div class="header__botoes">
+        <a href="#">
+          <p class="header__botao1">Globo</p>
+        </a>
+        <a href="#secao02">
+          <p class="header__botao2">Telenovelas</p>
+        </a>
+        <a href="#secao03">
+          <p class="header__botao3">Series</p>
+        </a>
+        <div>
+          <a href="#secao05">
+            <p class="header__botao4">Contacto</p>
+            <!-- Se mudar o texto precisa ajustar o "padding-right: 13.5rem;" de .header__botoes -->
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="secao01">
+        <div class="secao01__texto">
+          <p class="secao01__texto__linha1">MÁS DE</p>
+          <p class="secao01__texto__linha2">12MIL HORAS</p>
+          <p class="secao01__texto__linha3">DE TELENOVELAS Y SERIES DOBLADAS EN ESPAÑOL</p>
+          <p class="secao01__texto__linha4">¡Hay una Globo para todos y para cada uno!</p>
+          <a href="#secao04">
+            <p class="secao01__texto__botao">
+              Encuentre la mejor historia para su audiencia
+              <img src="./src/imgs/sec01-btn-seta.svg" alt="Seta apontando para baixo">
+            </p>
+          </a>
+        </div>
+        <figure>
+          <img src="./src/imgs/sec01-l01.png" class="secao01__img"
+            alt="Quatro programas, cada um dentro ed uma elípse">
+        </figure>
+      </section>
+
+      <section class="secao02" id="secao02">
+        <div class="secao02__titulo">
+          <h4>BIENVENIDO A GLOBO</h4>
+          <h2>TELENOVELAS Y SERIES IMPACTANTES</h2>
+        </div>
+        <div class="secao02__l01">
+          <div class="secao02__l01__texto">
+            <h3 class="secao02__l01__texto__linha1">LA MAYOR PRODUCTORA DE CONTENIDOS DE LATINOAMÉRICA,</h3>
+            <p class="secao02__l01__texto__linha2">
+              CON CAPACIDAD PARA PRODUCIR MÁS DE <strong>3.000 HORAS</strong> DE ENTRETENIMIENTO AL AÑO.
+            </p>
+            <p class="secao02__l01__texto__linha3">
+              Desde hace más de 40 años, globo distribuye contenidos en brasil y en todo el mundo: historias innovadoras para la televisión abierta, de pago y plataformas digitales, para los más diversos espectadores.
+            </p>
+          </div>
+          <figure>
+            <img src="./src/imgs/sec02-l01.png" class="secao02__l01__img" alt="MÁS DE 19k HORAS DISTRIBUIDAS AL AÑO | Más de 400 producciones distribuidas en 160 territorios y 70 idiomas">
+          </figure>
+        </div>
+        <div class="secao02__l02">
+          <figure>
+            <img src="./src/imgs/sec02-l02.png" class="secao02__l02__img" alt="Bajo Presión | Avenida Brasil | Aruanas | Huérfanos de su Tierra">
+          </figure>
+          <div class="secao02__l02__texto">
+            <h3 class="secao02__l02__texto__linha1">LA CALIDAD Y LA RELEVANCIA DE NUESTRAS TELENOVELAS Y SERIES LLEGAN HOY A UNA AMPLIA DEMANDA DE
+              CONSUMIDORES: </h3>
+            <p class="secao02__l02__texto__linha2">
+              HISTORIAS ATRACTIVAS Y EXITOSAS PARA EL PÚBLICO DE TODO EL MUNDO
+            </p>
+            <a href="#secao04">
+              <p class="secao02__l02__texto__botao">
+                Deleite a su audiencia <img src="./src/imgs/sec02-btn-seta.svg" alt="Seta apontando para baixo">
+              </p>
+            </a>
+          </div>
+        </div>
+
+      </section>
+      <div class="container">
+        <section class="secao03" id="secao03">
+          <div class="secao03__titulo">
+            <h4>SERIES</h4>
+            <h2>¡NUEVO CONSUMIDOR, NUEVO CONTENIDO!</h2>
+            <p>Para un público que está en la búsqueda de nuevas historias, personajes complejos y emociones únicas.</p>
+          </div>
+          <div class="secao03__l01">
+            <div class="secao03__l01__texto">
+              <h3 class="secao03__l01__texto__linha1">¡PARA USTED Y PARA TODOS!</h3>
+              <p class="secao03__l01__texto__linha2">
+                Un mundo de datos y pantallas, donde las tendencias son relevantes, cada individuo es único.
+              </p>
+            </div>
+            <div class="secao03__l01__borda"></div>
+            <div class="secao03__l01__texto">
+              <figure>
+                <img src="./src/imgs/sec03-l01.png" class="secao02__l01__img" alt="Bajo Presión | Avenida Brasil | Aruanas | Huérfanos de su Tierra">
+              </figure>
+              <p class="secao03__l01__texto__linha2">
+                ¡Estamos en la nueva era de series Globo! El resultado es un amplio portafolio de géneros y temas con alta afinidad con la demanda de los consumidores modernos.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="secao04" id="secao04">
+          <div class="secao04__titulo">
+            <h3>HISTORIAS QUE TRATAN DE LAS TENDENCIAS MUNDIALES PARA TODOS LOS PÚBLICOS</h3>
+          </div>
+
+          <section id="carrossel">
+            
+            <input class="hidden" id="card-0" name="cards" type="radio" checked>
+            <input class="hidden" id="card-1" name="cards" type="radio">
+            <input class="hidden" id="card-2" name="cards" type="radio">
+            <input class="hidden" id="card-3" name="cards" type="radio">
+            <input class="hidden" id="card-4" name="cards" type="radio">
+            <input class="hidden" id="card-5" name="cards" type="radio">
+  
+            <div class="cardsBlock">
+                <main class="window">
+                    <div class="cards">
+                        <div class="card card-0">
+                            <section>
+                                <img class="rubrica" src="./src/imgs/card01.png" alt="Verdades secretas">
+                                <h5>DRAMA</h5>
+                            </section>
+                        </div>
+                        <div class="card card-1">
+                            <section>
+                                <img class="rubrica" src="./src/imgs/card02.png" alt="Desalma">
+                                <h5>THRILLER SOBRENATURAL</h5>
+                            </section>
+                        </div>
+                        <div class="card card-2">
+                            <section>
+                                <img class="rubrica" src="./src/imgs/card03.png" alt="Comando Antisecuestro">
+                                <h5>THRILLER POLICIAL</h5>
+                            </section>
+                        </div>
+                        <div class="card card-3">
+                            <section>
+                                <img class="rubrica" src="./src/imgs/card04.png" alt="El Caso Evandro">
+                                <h5>True crime</h5>
+                            </section>
+                        </div>
+                        <div class="card card-4">
+                            <section>
+                                <img class="rubrica" src="./src/imgs/card05.png" alt="Foto de rosto">
+                                <h6>Comando Antisecuestro</h6>
+                                <h5>ACTIVISMO</h5>
+                            </section>
+                        </div>
+                        <div class="card card-5">
+                            <section>
+                                <img class="rubrica" src="./src/imgs/card06.png" alt="Foto de rosto">
+                                <h6>El Caso Evandro</h6>
+                                <h5>ADICCIÓN A LAS DROGAS</h5>
+                            </section>
+                        </div>
+                    </div>
+                </main>
+  
+                <footer class="cards-selector">
+                    <label for="card-0" class="button button-0 active"></label>
+                    <label for="card-1" class="button button-1"></label>
+                    <label for="card-2" class="button button-2"></label>
+                    <label for="card-3" class="button button-3"></label>
+                    <label for="card-4" class="button button-4"></label>
+                    <label for="card-5" class="button button-5"></label>
+                </footer>
+            </div>
+        </section>
+        </section>
+      </div>
+
+    </main>
+
+    <footer>
+      <section class="secao05" id="secao05">
+        <div class="secao05__titulo">
+          <h4>CONTATO</h4>
+          <h2>¡ENCUENTRE LA MEJOR HISTORIA EN ESPAÑOL PARA SU PÚBLICO! </h2>
+          <p>Hable con nuestro equipo de ventas:</p>
+        </div>
+        <div>
+          <form class="secao05__form" method="get" action="#">
+            <label>Nombre
+              <input class="input" type="text" name="" placeholder="Mi nombre">
+            </label>
+            <label>E-mail*
+              <input class="input" type="email" name="" placeholder="minombre@gmail.com">
+            </label>
+            <label>Empresa
+              <input class="input" type="text" name="" placeholder="Mi empresa">
+            </label>
+            <label>¿Cómo conociste Globo?
+              <input class="input" type="text" name="" placeholder="Por mis amigos">
+            </label>
+            <button class="secao05__form__botao" type="submit" value="Submit">enviar</button>
+          </form>
+        </div>
+        <figure>
+          <img src="./src/imgs/sec05-logo.svg" alt="Globo">
+        </figure>
+      </section>
+    </footer>
+
+    <script src="./src/js/carousel.js"></script>
+  </div>
+</body>
+</html>

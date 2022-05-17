@@ -1,0 +1,114 @@
+/* ==== Section-03 ================================ */
+.container {
+  background-color: #160E26;
+  position: relative;
+  z-index: 41;
+
+  .secao03 {
+    border-bottom: 1px solid #ffffff69;
+    padding-top: 5vw;
+    position: relative;
+    text-align: center;
+    z-index: 40;
+  
+    h4 {
+      font-family: 'Roboto', system-ui;
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 3.1rem;
+      letter-spacing: 0.2rem;
+      margin-bottom: 1rem;
+    
+      background-image: linear-gradient(165deg, #FC1787 30%, #7C2CFF 55%);
+      color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+  
+    h2 {
+      font-family: 'globotipo_textoblack';
+      font-size: 4rem;
+      line-height: 4.4rem;
+      letter-spacing: 0.2rem;
+      margin-bottom: 1rem;
+    }
+  
+    p {
+      color: #ffffff80;
+      font-size: 1.8rem;
+      line-height: 2.5rem;
+      margin: 0 auto 3rem;
+      max-width: 56rem;
+    }
+    
+    &__l01 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+      &__texto {
+        margin: 0 auto;
+        max-width: 44.5rem;
+        text-align: left;
+  
+        &__linha1 {
+          font-family: 'globotipo_textoblack';
+          font-size: 2.6rem;
+          margin-bottom: 1rem;
+          width: max-content;
+        }
+        &__linha2 {
+          font-size: 1.8rem;
+          margin: 1.2rem 0 2rem;
+        }
+        strong {
+          font-family: 'globotipo_textoblack';
+        }
+      }
+  
+      &__borda {
+        background-color: #ffffff69;
+        width: 70%;
+        height: 0.1rem;
+        margin: 2rem auto 2rem;
+      }
+  
+      &__img {
+        max-height: 20vw;
+      }
+    }
+  
+    &::after {
+      background-color: #53228C;
+      border-radius: 50%;
+      content: "";
+      height: 50rem;
+      position: absolute;
+      right: -15rem;
+      top: -8rem;
+      width: 50rem;
+      z-index: -1;
+  
+      // opacity: 0.5;
+      filter: blur(30rem);
+      
+      box-shadow: 10rem -20rem 20rem #53228C;
+    }
+  } 
+  
+  @media (min-width: 767px) {
+    .secao03 {
+      &__l01 {
+        flex-direction: row;
+  
+        &__borda {
+          background-color: #ffffff69;
+          height: 16rem;
+          width: 1px;
+          margin:  0 1rem 2rem;
+        }
+      }
+    }
+  
+  }
+}

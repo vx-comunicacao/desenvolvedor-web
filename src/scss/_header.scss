@@ -1,0 +1,50 @@
+/* === Header ================================================================ */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+  position: relative;
+  z-index: 51;
+
+  &__botoes {
+    align-items: center;
+    display: flex;
+    font-family: 'globotipo_textoblack';
+    font-size: 2.8rem;
+    gap: 3vw;
+    padding-right: 13.5rem;  
+  }
+
+  &__botao4 {
+    background: linear-gradient(90deg, #FC1787 30%, #7833E8 70%);
+    background-size: 400vw;
+    background-position:-300vw;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50vh;
+    
+    padding: 1rem 3rem; /* Se mudar o 3rem precisa ajustar o "padding-right: 13.5rem;" de .header__botoes */
+    position: fixed;
+    width: max-content;
+    transform: translateY(-50%);    
+    transition: all 1s;
+    z-index: 100;
+  }
+
+  &__botao4:hover {
+    background-position: 0vw;
+    transition: all 1s;
+  }
+
+  &::before {
+    background: linear-gradient(90deg, #CA2388 10%, #49228B 65%, #201437 82%);
+    border-radius: 50%;
+    content: "";
+    height: 126.4rem;
+    left: -130rem;
+    position: absolute;
+    top: -110rem;
+    width: 200rem;
+    z-index: -1;
+  }
+}

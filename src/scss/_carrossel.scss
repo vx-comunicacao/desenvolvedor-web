@@ -1,0 +1,128 @@
+/*=== Carrosel ==================================*/
+#carrossel {
+  display: grid;
+  grid-template-columns: 100%;
+  padding: var(--margin-page-top) var(--margin-page);
+  padding: 1vw 0 6vw;
+  width: 100%;
+  
+  h5 {color: var(--color-darkGray);}
+  h6 {
+    color: var(--color-secondary);
+    font-weight: bold;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .cards {
+    display: flex;
+    scroll-behavior: smooth;
+    
+    /* Works on Firefox */
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: 0;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .cards::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  .card {
+    padding: 0 calc(var(--margin-page)/2);
+    min-width: fit-content;
+    scroll-snap-align: start;
+
+    section {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      gap: var(--margin-page);
+    }
+    
+    .rubrica {
+      border-radius: 2.2rem;
+    }
+    
+    h6 {
+      font-size: 1.8rem;
+    }
+    
+    h5 {
+      font-size: 2rem;
+    }
+    
+    footer {
+      align-items: center;
+      background: var(--color-white);
+      display: none;
+      gap: calc(var(--margin-page)/2);
+      height: calc(var(--margin-font-top)*2 + 1.2rem);
+      justify-content: center;
+    }
+    
+    .button {
+      background-color: var(--color-lightGray);
+      border-radius: 50%;
+      height: 1.2rem;
+      width: 1.2rem;
+    }
+    
+    .active {
+      background-color: var(--color-secondary);
+    }
+  }  
+}
+  
+@media (min-width: 767px) {
+  #carrossel {
+    grid-template-columns: repeat(2, calc(100% - var(--margin-page)/2));
+    gap: var(--margin-page);
+    
+    .buttons {
+      justify-content: unset;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  :root {
+      --margin-page-top: 14rem;
+  }
+  #carrossel {
+    grid-template-columns: repeat(2, calc(100% - var(--gap-page)/2));
+    gap: var(--gap-page);
+    
+    .card {
+      padding: 0 calc(var(--gap-page)/2);
+      
+      fieldset {
+        padding: 0 calc(var(--gap-page)/2);
+      }
+      
+      section {
+        gap: var(--gap-page);
+      }
+    }
+  
+    footer {
+      gap: calc(var(--gap-page)/2);
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  #carrossel {
+    grid-template-columns: repeat(2, calc(100% - var(--margin-page)/2));
+    gap: var(--margin-page);
+    
+    .card {
+      padding: 0 calc(var(--margin-page)/2);
+    }
+  }
+}

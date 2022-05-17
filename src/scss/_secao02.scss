@@ -1,0 +1,112 @@
+/* ==== Section-02 ================================ */
+.secao02 {
+  margin: 10vw auto;
+  text-align: center;
+  position: relative;
+  z-index: 41;
+
+  h4 {
+    font-family: 'Roboto', system-ui;
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 3.1rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+  
+    background-image: linear-gradient(135.68deg, #FC1787 -31.01%, #7C2CFF 79.3%), linear-gradient(90deg, #AE3898 0%, rgba(174, 56, 152, 0.62) 93.35%), linear-gradient(90deg, #AE3898 0%, rgba(228, 49, 104, 0.62) 93.35%, rgba(174, 56, 152, 0.62) 93.35%), linear-gradient(90deg, #D1268E 0%, #D1268E 0%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  h2 {
+    font-family: 'globotipo_textoblack';
+    font-size: 4rem;
+    line-height: 4.4rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 3rem;
+  }
+  
+  &__l01,
+  &__l02 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+
+    &__texto {
+      max-width: 44.5rem;
+      position: relative;
+      text-align: left;
+      z-index: 55;
+
+      &__linha1 {
+        font-family: 'globotipo_textoblack';
+        font-size: 2.6rem;
+        margin: 5rem 0 2rem;
+      }
+      &__linha2,
+      &__linha3 {
+        color: #ffffff80;
+        font-family: 'globotipo_textolight';
+        font-size: 1.8rem;
+        margin-bottom: 3rem;
+      }
+      strong {
+        color: #FFFFFF;
+        font-family: 'globotipo_textoblack';
+      }
+
+      &__botao {
+        background: linear-gradient(90deg, #FC1787 30%, #7C2CFF 70%);
+        background-size: 400vw;
+        background-position:-300vw;
+        background-repeat: no-repeat;
+        border-radius: 50vh;
+        font-size: 2rem;
+        font-weight: 400;
+        padding: 1rem 2rem;
+        width: max-content;
+        transition: all 1s;
+      }
+  
+      &__botao:hover {
+        background-position: 0vw;
+        transition: all 1s;
+      }
+    }
+  }
+
+  &::after {
+    background: linear-gradient(180deg, #72228A 10.6%, #4A228D 56.92%, #201437 68%);
+    border-radius: 50%;
+    content: "";
+    height: 200rem;
+    right: -115rem;
+    position: absolute;
+    top: -50rem;
+    width: 110.9rem;
+    z-index: -1;
+
+    opacity: 0.5;
+  }
+} 
+    
+@media (min-width: 923px) {
+  .secao02 {  
+    &__l01,
+    &__l02 {
+      justify-content: space-between;
+    }
+
+    &__l02 {
+      &__img {
+        position: absolute;
+        top: 0;
+        left: -7rem;
+        max-height: 160%;
+        height: 40vw;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+/* Fonts */
+@import url(https://cdn.jsdelivr.net/gh/viniciusvasc13/globoplay@master/globotipo2.css);
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+     -moz-font-smoothing: antialiased;
+
+  margin: 0;
+  padding: 0;
+}
+
+html, h1, h2, h3, h4, p {
+  font-size: 62.5%; 
+  scroll-behavior: smooth;
+  color: #FFFFFF;
+  font-family:
+    'globotipo_textoregular',
+    -apple-system,
+    system-ui,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Helvetica,
+    HelveticaNeue,
+    HelveticaNeue-Light,
+    Arial, sans-serif;
+  font-weight: 400;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+header,
+.secao01,
+.secao02,
+.secao03,
+.secao04,
+footer {
+  margin: 0 auto;
+  max-width: 108rem;
+  padding: 0 2.4rem;
+  position: relative;
+  width: 100%;
+}
