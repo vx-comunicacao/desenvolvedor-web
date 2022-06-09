@@ -29,7 +29,7 @@ Preparamos um layout de site e você precisa montar o front-end de uma página s
 
 ## Informações extras
 
-No figma, faça a importação do arquivo **LadingPage.fig** para obter informações sobre o o layout e recorte de imagens.
+No figma, faça a importação do arquivo **LadingPage.fig** para obter informações sobre o layout e recorte de imagens.
 
 A fonte **Globotipo Texto** utilizada no layout deve ser importada através do <a href="https://cdn.jsdelivr.net/gh/viniciusvasc13/globoplay@master/globotipo2.css" target="_blank">**JSDelivr**</a>.
 
