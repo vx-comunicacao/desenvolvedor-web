@@ -35,8 +35,8 @@ A fonte **Globotipo Texto** utilizada no layout deve ser importada através do <
 
 ## Como enviar os arquivos? 
 
-1. `Fork` ou `clone` projeto `git clone https://github.com/diogocaldas/desenvolvedor-web`
-2. Crie um `branch` com suas alterações
+1. `Fork` ou `clone` projeto `git clone https://github.com/vx-comunicacao/desenvolvedor-web`
+2. Crie uma `branch` com suas alterações
 3. Faça um `README.md` falando um pouco de você e porque você gostaria de trabalhar aqui na VX.
 4. Faça um `pull request`
 
