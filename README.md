@@ -47,3 +47,6 @@ A fonte **Globotipo Texto** utilizada no layout deve ser importada através do <
 **Boa sorte!**
 
 ![alt text](https://d335luupugsy2.cloudfront.net/cms/files/41403/1606856495/$8lyt6e2ma2e)
+
+
+![resultado#01](./assets/design/tela1.png)
