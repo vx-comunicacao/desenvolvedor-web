@@ -1,0 +1,114 @@
+body{
+    background-color: var(--bgBody);
+    background-image: url('../images//Vector\ 2.svg');
+    background-repeat: no-repeat;
+
+    position: relative;
+    z-index: 0;
+}
+
+nav{
+    display: flex;
+    width: 80vw;
+    margin: 2rem auto;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    font-family: 'globotipo_textobold';
+}
+
+nav ul li{
+    font-size: 18px;
+    margin: 0 1.45rem;
+}
+
+nav ul .contact{
+    background-color: var(--bgButton);
+    height: 5vh;
+    width: 7vw;
+    line-height: 5vh;
+    border: 0;
+    border-radius: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+nav ul .contact:hover{
+    background-color: var(--bgHover);
+    transition: 0.4s;
+}
+
+/* main */
+main{
+    display: flex;
+    width: 80vw;
+    margin: 5rem auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.describe{
+    margin-top: -10rem;
+    text-align: left;
+}
+
+.describe h1{
+    width: 30rem;
+    font-size: 65px;
+    display: block;
+    color: var(--bgHover);
+    margin: 0.55rem 0;
+}
+
+.describe h3{
+    width: 30rem;
+    font-size:35px;
+    display: block;
+    color: var(--white);
+    margin: 0.55rem 0;
+}
+
+.describe h5{
+    width: 30rem;
+    font-size:20px;
+    display: block;
+    color: var(--bgHover);
+    margin: 0.55rem 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--white);
+}
+
+.describe button{
+    width: 30rem;
+    height: 5vh;
+    background-color: var(--bgButton);
+    border: 0;
+    border-radius:20px;
+    color: var(--white);
+    line-height: 5vh;
+    font-family: 'globotipo_textoregular';
+}
+
+.images{
+    display: flex;
+    background-image: url('../images/image\ 94.svg');
+    background-repeat: no-repeat;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+.img1{
+    margin-top: 13rem;
+    height: 487.9px;
+
+}
+
+
+.img3{
+    margin-top: -10rem;
+    height: 487.9px;
+}

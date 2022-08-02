@@ -35,8 +35,21 @@
     font-size: 16px;
     margin: 0;
     padding: 0;
+    font-family: 'globotipo_textobold';
 }
 
-:root{
-   --bgButton: #7833E8; 
+:root {
+    --bgButton: #7833E8;
+    --bgHover: #AE3898;
+    --bgBody: #160E26;
+    --white: #FFFFFF;
+}
+
+
+a,
+li,
+ul {
+    text-decoration: none;
+    text-transform: none;
+    list-style: none;
 }
