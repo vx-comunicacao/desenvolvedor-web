@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'globotipo_textoblack';
+    src: url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-black-webfont.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'globotipo_textobold';
+    src: url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-bold-webfont.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'globotipo_textoregular';
+    src: url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-regular-webfont.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'globotipo_textolight';
+    src: url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-light-webfont.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'globotipo_textobold';
+    color: var(--white);
+}
+
+:root {
+    --bgButton: #7833E8;
+    --bgHover: #AE3898;
+    --bgBody: #160E26;
+    --white: #FFFFFF;
+}
+
+
+a,
+li,
+ul {
+    text-decoration: none;
+    text-transform: none;
+    list-style: none;
+}
