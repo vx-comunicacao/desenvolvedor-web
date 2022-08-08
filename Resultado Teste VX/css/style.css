@@ -1,0 +1,839 @@
+@font-face {
+    font-family: 'globotipo_textoblack';
+    src: url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-black-webfont.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'globotipo_textobold';
+    src: url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-bold-webfont.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'globotipo_textoregular';
+    src: url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-regular-webfont.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'globotipo_textolight';
+    src: url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-light-webfont.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.fundo{
+    position: relative;
+    width: 1280px;
+    height: 3494px;
+    
+    background: linear-gradient(169.6deg, #201437 3.2%, #201437 50.11%);
+}
+
+/*NAVBAR*/
+
+.menu-nav{
+    position: absolute;
+    width: 1082.12px;
+    height: 44.56px;
+    left: 179px;
+    top: 30px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo{
+    position: absolute;
+    width: 152px;
+    height: 44.56px;
+    left: 179px;
+    top: 30px;
+}
+
+.nav-bar{
+    position: absolute;
+    width: 100%;
+    height: 30.63px;
+    left: 60%;
+    top: 37px;
+
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+
+    text-transform: uppercase;
+}
+
+.nav-bar a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav-bar ul li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    margin-right: 100px ;
+}
+
+.button{
+    position: absolute;
+    width: 152px;
+    height: 44.56px;
+    top: 10px;
+
+    background-color: #8400ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px 30px 30px 30px;
+    text-transform: uppercase;
+    font-family: 'globotipo_textoregular';
+}
+
+/*INFOS*/
+
+.destaque{
+    position: absolute;
+    width: 1006px;
+    height: 882.34px;
+    left: 60%;
+    top: 10px;
+}
+
+.texto-destaque{
+    position: absolute;
+    width: 100px;
+    height: 339.99px;
+
+}
+
+.texto-destaque h1{
+    position: absolute;
+    width: 182.73px;
+    height: 67.17px;
+    left: 360px;
+    top: 196.23px;
+
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45.234px;
+    line-height: 67px;
+    color: #CB2283;
+}
+
+.texto-destaque h2{
+    position: absolute;
+    width: 462.27px;
+    height: 67.17px;
+    left: 360px;
+    top: 205.23px;
+
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65.4982px;
+    line-height: 97px;
+    color: #CB2283;
+
+}
+
+.texto-destaque h3{
+    position: absolute;
+    width: 477.08px;
+    height: 81.98px;
+    left: 360px;
+    top: 300px;
+
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36.954px;
+    line-height: 44px;
+    color: #ffffff;
+}
+
+.texto-destaque p{
+    position: absolute;
+    width: 403.99px;
+    height: 39.51px;
+    left: 360px;
+    top: 400px;
+
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.7428px;
+    line-height: 39px;
+
+    letter-spacing: -0.03em;
+    color: #CB2283;
+}
+
+.button-destaque{
+    position: absolute;
+    width: 474.26px;
+    height: 49.32px;
+    left: 360px;
+    top: 486.89px;
+
+    background: linear-gradient(0deg, #7833E7, #7833E7), linear-gradient(109.75deg, #FC1787 -19.65%, #7C2CFF 58.39%), #C4C4C4;
+    border-radius: 28.4554px;
+    border: 1.89703px solid #FFFFFF;
+
+}
+
+.button-destaque a{
+    text-decoration: none;
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.9995px;
+    line-height: 41px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.dados h1{
+    position: absolute;
+    width: 500px;
+    height: 31px;
+    left: 65%;
+    top: 750px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120.5%;
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    background: linear-gradient(135.68deg, #FC1787 -31.01%, #7C2CFF 79.3%), linear-gradient(90deg, #AE3898 0%, rgba(174, 56, 152, 0.62) 93.35%), linear-gradient(90deg, #AE3898 0%, rgba(228, 49, 104, 0.62) 93.35%, rgba(174, 56, 152, 0.62) 93.35%), #D1268E;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.dados h2{
+    position: absolute;
+    width: 713px;
+    height: 44px;
+    left: 55%;
+    top: 770px;
+
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 110%;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.dados-texto{
+    position: absolute;
+    width: 444px;
+    height: 54px;
+    left: 360px;
+    top: 950px;
+
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 110%;
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #FFFFFF; 
+}
+
+.dados-info{
+    position: absolute;
+    width: 350px;
+    height: 159px;
+    left: 360px;
+    top: 1020px;
+
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 143.5%;
+
+
+    color: #FFFFFF;
+}
+
+.imagem-dados{
+    position: absolute;
+    width: 538.19px;
+    height: 411.03px;
+    left: 1100px;
+    top: 860px;
+}
+
+.produto{
+    position: absolute;
+    width: 713.78px;
+    height: 442.99px;
+    left: 360px;
+    top: 1300px;
+}
+
+.produtos-texto{
+    position: absolute;
+    width: 439px;
+    height: 112px;
+    left: 1100px;
+    top: 1350px;    
+
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 110%;
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #FFFFFF; 
+}
+
+.produtos-info{
+    position: absolute;
+    width: 422px;
+    height: 46px;
+    left: 1100px;
+    top: 1490px;
+
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 151%;
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button-produtos{
+    position: absolute;
+    width: 316px;
+    height: 52px;
+    left: 1100px;
+    top: 1580px;
+
+    background: linear-gradient(0deg, #7833E7, #7833E7), linear-gradient(117.42deg, #FC1787 -25.41%, #7C2CFF 75.5%), #C4C4C4;
+    border-radius: 30px;
+    border: 1.89703px solid #FFFFFF;
+}
+
+.button-produtos a{
+    text-decoration: none;
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.0851px;
+    line-height: 43px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+/*SERIES*/
+
+.retangulo{
+    position: absolute;
+    width: 2115px;
+    height: 1270px;
+    left: -10px;
+    top: 1750px;
+
+    background: #160E26;
+    mix-blend-mode: normal;
+}
+
+.series-texto h1{
+    position: absolute;
+    width: 150px;
+    height: 36px;
+    left: 950px;
+    top: 100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120.5%;
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    background: linear-gradient(135.68deg, #FC1787 -31.01%, #7C2CFF 79.3%), linear-gradient(90deg, #AE3898 0%, rgba(174, 56, 152, 0.62) 93.35%), linear-gradient(90deg, #AE3898 0%, rgba(228, 49, 104, 0.62) 93.35%, rgba(174, 56, 152, 0.62) 93.35%), #D1268E;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.series-texto h2{
+
+    position: absolute;
+    width: 845px;
+    height: 44px;
+    left: 580px;
+    top: 150px;
+
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 110%;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.series-texto p{
+    position: absolute;
+    width: 559px;
+    height: 49px;
+    left: 750px;
+    top: 230px;
+
+    font-family:  'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 142%;
+
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.series-info h1{
+    position: absolute;
+    width: 359px;
+    height: 29px;
+    left: 360px;
+    top: 400px;
+    
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 110%;
+    
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.series-info p{
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 142%;
+    color: #FFFFFF;
+    text-transform:capitalize;
+}
+
+.posic-info1{
+    position: absolute;
+    width: 420px;
+    height: 52px;
+    left: 360px;
+    top: 450px;
+}
+
+.posic-info2{
+    position: absolute;
+    width: 540px;
+    height: 52px;
+    left: 1100px;
+    top: 450px;
+}
+
+.borda1{
+    position: absolute;
+    width: 0px;
+    height: 138px;
+    left: 1030px;
+    top: 400px;
+
+    opacity: 0.2;
+    border: 1px solid #FFFFFF;
+}
+
+.borda2{
+    position: absolute;
+    width: 1400.5px;
+    height: 0px;
+    left: 360px;
+    top: 600px;
+
+    border: 1px solid rgba(255, 255, 255, 0.41);
+}
+
+.logo2{
+    position: absolute;
+    width: 256px;
+    height: 35.93px;
+    left: 1100px;
+    top: 410px;
+}
+
+.series-titulo h1{
+    position: absolute;
+    width: 808px;
+    height: 22px;
+    left: 360px;
+    top: 650px;
+
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 110%;
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    opacity: 0.9;
+}
+
+.carrosel{
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid #000000;
+    border-radius: 22.0497px;
+}
+
+.imagem1{
+    position: absolute;
+    width: 254px;
+    height: 384px;
+    left: 450px;
+    top: 800px;
+}
+
+.imagem2{
+    position: absolute;
+    width: 255px;
+    height: 384px;
+    left: 750px;
+    top: 800px;
+}
+
+.imagem3{
+    position: absolute;
+    width: 254px;
+    height: 384px;
+    left: 1050px;
+    top: 800px;
+}
+
+.imagem4{
+    position: absolute;
+    width: 255px;
+    height: 384px;
+    left: 1350px;
+    top: 800px;
+}
+
+/*CONTATO*/
+
+.contato h1{
+    position: absolute;
+    width: 150px;
+    height: 31px;
+    left: 930px;
+    top: 3100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120.5%;
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    background: linear-gradient(135.68deg, #FC1787 -31.01%, #7C2CFF 79.3%), linear-gradient(90deg, #AE3898 0%, rgba(174, 56, 152, 0.62) 93.35%), linear-gradient(90deg, #AE3898 0%, rgba(228, 49, 104, 0.62) 93.35%, rgba(174, 56, 152, 0.62) 93.35%), #D1268E;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.contato h2{
+    position: absolute;
+    width: 624px;
+    height: 76px;
+    left: 700px;
+    top: 3150px;
+
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 110%;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.contato h3{
+    
+    position: absolute;
+    width: 292px;
+    height: 26px;
+    left: 870px;
+    top: 3280px;
+
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 142%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+.form{
+    position: absolute;
+    width: 531px;
+    height: 69px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1.14958px solid rgba(236, 236, 236, 0.09);
+}
+
+.form-posic1{
+    left: 750px;
+    top: 3400px;
+}
+
+.form-nome{
+    position: absolute;
+    width: 57.38px;
+    height: 13.77px;
+    left: 750px;
+    top: 3380px;
+
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.795px;
+    line-height: 98.12%;
+
+    color: #FFFFFF;
+}
+
+.form-posic2{
+    left: 750px;
+    top: 3500px;
+}
+
+.form-email{
+    position: absolute;
+    width: 57.38px;
+    height: 13.77px;
+    left: 750px;
+    top: 3480px;
+
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.795px;
+    line-height: 98.12%;
+
+    color: #FFFFFF;
+}
+
+.form-posic3{
+    left: 750px;
+    top: 3600px;
+}
+
+.form-empresa{
+    position: absolute;
+    width: 57.38px;
+    height: 13.77px;
+    left: 750px;
+    top: 3580px;
+
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.795px;
+    line-height: 98.12%;
+
+    color: #FFFFFF;
+}
+
+.form-posic4{
+    left: 750px;
+    top: 3700px;
+}
+
+.form-conhecer{
+    position: absolute;
+    width: 200.38px;
+    height: 13.77px;
+    left: 750px;
+    top: 3680px;
+
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.795px;
+    line-height: 98.12%;
+
+    color: #FFFFFF;
+}
+
+.button-forms{
+    position: absolute;
+    width: 200px;
+    height: 52px;
+    left: 900px;
+    top: 3850px;
+
+    background: linear-gradient(0deg, #7833E7, #7833E7), linear-gradient(117.42deg, #FC1787 -25.41%, #7C2CFF 75.5%), #C4C4C4;
+    border-radius: 30px;
+    border: 1.89703px solid #FFFFFF;
+}
+
+.button-forms a{
+    text-decoration: none;
+    font-family: 'globotipo_textoregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.0851px;
+    line-height: 43px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+/*RODAPE*/
+
+.imagem-rodape{   
+    position: absolute;
+    width: 100px;
+    height: 102px;
+    left: 950px;
+    top: 4000px;
+}
+
+/*EFEITO DO FUNDO*/
+
+.mancha{
+    position: absolute;
+    width: 841.05px;
+    height: 689.24px;
+    left: -575px;
+    top: 764.96px;
+
+    background: #CB2283;
+    opacity: 0.4;
+    filter: blur(400px);
+    border-radius: 500px;
+    transform: rotate(-24.36deg);
+}
+
+.mancha2{
+    position: absolute;
+    width: 841.05px;
+    height: 689.24px;
+    left: -615px;
+    top: 2930.96px;
+
+    background: #CB2283;
+    opacity: 0.2;
+    filter: blur(400px);
+    border-radius: 500px;
+    transform: rotate(-24.36deg);
+}
+
+.mancha3{
+    position: absolute;
+    width: 841.05px;
+    height: 689.24px;
+    left: 939px;
+    top: 3320.96px;
+
+    background: #CB2283;
+    opacity: 0.2;
+    filter: blur(400px);
+    border-radius: 500px;
+    transform: rotate(-24.36deg);
+}
+
+.carousel-info{
+    width: 1500px;
+    left: 360px;
+    top: 800px;
+}
+
+button.slick-next{
+    font-size: 0px;
+    border:transparent;
+    width: 25px;
+    height: 50px;
+    top: 170px;
+    left:1400px;
+    z-index: 9;
+    background-color: transparent;
+}
+
+button.slick-prev{
+    font-size: 0px;
+    border:transparent;
+    width: 25px;
+    height: 50px;
+    top: 170px;
+    left:-40px;
+    z-index: 9;
+    background-color: transparent;
+}
+
+button.slick-arrow{
+    width: 0px;
+    height: 0px;
+}
