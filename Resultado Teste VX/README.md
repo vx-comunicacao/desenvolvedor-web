@@ -1,5 +1,4 @@
-Olá, Me chamo Nilson Carvalho, tenho 25 anos sou formado como Tecnico de TI e estudante de Analise e Desenvolvimento de Sistemas, pretendo seguir
-na area e busco sempre conhecimento
+Olá, Me chamo Nilson Carvalho, tenho 25 anos sou formado como Tecnico de TI e estudante de Analise e Desenvolvimento de Sistemas, e estou sempre em busca de conhecimento.
 
 Durante meu ensino, tive oportunidade de conhecer e aprender algumas linguagens, mas minha maior paixão é o desenvolvimento web, durante
 esse periodo, pude aprender e conhecer HTML,CSS e Javascript e foi de extrema facilidade.
