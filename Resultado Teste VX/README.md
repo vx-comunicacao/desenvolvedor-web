@@ -11,3 +11,5 @@ Ao conhecer a VX busquei entender sobre a empresa, fiquei encantado com o que fo
 ter a oportunidade de ingressar é uma possibilidade que me deixa extasiado, vejo na VX uma oportunidade de crescimento profissional e pessoal, uma forma
 de poder por em pratica o que aprendi e ao mesmo tempo melhorar cada vez mais e me tornar sempre um melhor profissional e uma pessoa melhor, espero
 conhecer cada vez mais a empresa.
+
+Agradeço a atenção.
