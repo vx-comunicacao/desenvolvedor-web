@@ -1,0 +1,41 @@
+{
+    "series": [
+        {
+            "capa": "/series/1.webp",
+            "categoria": "DRAMA",
+            "title": ""
+        },
+        {
+            "capa": "/series/2.webp",
+            "categoria": "THRILLER SOBRENATURAL",
+            "title": ""
+        },
+        {
+            "capa": "/series/3.webp",
+            "categoria": "THRILLER POLICIAL",
+            "title": ""
+        },
+        {
+            "capa": "/series/4.webp",
+            "categoria": "True crime",
+            "title": ""
+        },
+        {
+            "capa": "/series/5.webp",
+            "categoria": "ACTIVISMO",
+            "title": "Comando Antisecuestro"
+        },
+        {
+            "capa": "/series/6.webp",
+            "draft": "/series/draft/6.webp",
+            "categoria": "ADICCIÓN A LAS DROGAS",
+            "title": "El Caso Evandro"
+        },
+        {
+            "capa": "/series/7.webp",
+            "draft": "/series/draft/7.webp",
+            "categoria": "MEDICAMENTO",
+            "title": "The Good Doctor"
+        }
+    ]
+}
