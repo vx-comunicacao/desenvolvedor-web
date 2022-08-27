@@ -589,21 +589,158 @@
                 ><v-divider class="pa-0"
               /></v-col>
             </v-row>
-            <v-row justify="center"> </v-row>
+            <!--  Carrossel Series -->
+            <carrosselSeries />
+            <!--  Footer Contato -->
+            <v-row
+              justify="center"
+              class="
+                overflow-y-hidden
+                u-z-index--10
+                pb-10
+                d-flex
+                flex-column
+                align-center
+              "
+            >
+              <v-col cols="12" class="pt-15 c-design-el-6">
+                <h3 class="c-text-highlight u-font-size-hgt_26 pb-3">
+                  Contato
+                </h3>
+                <h4
+                  class="
+                    c-text-sub-title--footer
+                    u-font-size-sub_40
+                    text-white--text
+                    text-uppercase
+                  "
+                  :class="{ 'u-font-size-sub_22': $vuetify.breakpoint.xsOnly }"
+                >
+                  ¡ENCUENTRe LA MEJOR HISTORIA<br />EN ESPAÑOL PARA sU PÚBLICO!
+                </h4>
+                <h5
+                  class="c-text-pg u-font-size-pg_18 text-center mt-1 mt-sm-3"
+                >
+                  Hable con nuestro equipo de ventas:
+                </h5>
+              </v-col>
+              <v-col cols="10" xs="10" sm="8" md="5" class="pb-0 mb-0">
+                <v-text-field
+                  type="text"
+                  color="secondary"
+                  clear-icon
+                  hide-details
+                  label="Nombre"
+                  placeholder="escriba su nombre"
+                  filled
+                  class="c-text-label pb-0 mb-0"
+                ></v-text-field>
+              </v-col>
+              <v-col cols="10" xs="10" sm="8" md="5" class="py-0 my-0">
+                <v-text-field
+                  color="secondary"
+                  clear-icon
+                  hide-details="auto"
+                  :rules="[rules.required, rules.email]"
+                  type="email"
+                  label="E-mail*"
+                  placeholder="saulocampos@gmail.com"
+                  filled
+                  class="c-text-label py-0 my-0"
+                >
+                  <template v-slot:message="{ message }">
+                    <v-slide-y-transition appear>
+                      <v-alert dense outlined type="error" class="c-alerta">{{
+                        message
+                      }}</v-alert>
+                    </v-slide-y-transition>
+                  </template>
+                </v-text-field>
+              </v-col>
+              <v-col cols="10" xs="10" sm="8" md="5" class="py-0 my-0">
+                <v-text-field
+                  color="secondary"
+                  clear-icon
+                  hide-details
+                  type="text"
+                  label="Empresa"
+                  placeholder="Mi empresa"
+                  filled
+                  class="c-text-label py-0 my-0"
+                ></v-text-field>
+              </v-col>
+              <v-col cols="10" xs="10" sm="8" md="5" class="py-0 my-0">
+                <v-text-field
+                  color="secondary"
+                  clear-icon
+                  hide-details
+                  type="text"
+                  label="¿Cómo conociste Globo?"
+                  placeholder="Por mis amigos"
+                  filled
+                  class="c-text-label py-0 my-0"
+                ></v-text-field>
+              </v-col>
+              <v-col
+                cols="10"
+                xs="10"
+                sm="5"
+                class="u-z-index--10 text-center mt-4"
+              >
+                <v-btn
+                  type="submit"
+                  rounded
+                  color="primary"
+                  class="text-capitalize c-text-btn px-8"
+                  dense
+                  >enviar</v-btn
+                >
+              </v-col>
+              <v-col cols="10" xs="10" class="text-center mt-4 u-p-relative">
+                <v-img
+                  src="./assets/logo-globo.svg"
+                  height="69px"
+                  contain
+                  position="center"
+                ></v-img>
+              </v-col>
+            </v-row>
           </v-container>
         </v-main>
+        <div class="c-design-el-7__ct"><span class="c-design-el-7"></span></div>
       </v-sheet>
     </v-responsive>
   </v-app>
 </template>
 
 <script>
+import carrosselSeries from "./components/CarrosselSeries.vue";
+
 export default {
   name: "App",
-  components: {},
+  components: { carrosselSeries },
+  data: () => ({
+    alturaScroll: window.pageYOffset,
+    isVisible: false,
+    rules: {
+      required: (value) => !!value || "Campo obligatorio.",
+      email: (value) => {
+        const pattern =
+          /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return pattern.test(value) || "Email inválido.";
+      },
+    },
+  }),
+  methods: {
+    onIntersect(entries) {
+      this.isVisible = entries[0].isIntersecting;
+    },
+    scrollToTop(getTarget) {
+      document.getElementById(getTarget).scrollIntoView({ behavior: "smooth" });
+    },
+  },
 };
 </script>
-
 <style>
 /* Useful general classes */
 .u-p-relative {
